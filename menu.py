@@ -18,7 +18,7 @@ while menuprincipal == '0':
         sleep(1)
         os.system('clear')
         firula('[1]MENU-1 SELECIONADO')
-        sleep(2)
+        sleep(1)
         print('EXECUTA ALGUMA COISA')
         sleep(2)
         os.system('clear')
@@ -45,33 +45,33 @@ while menuprincipal == '0':
     elif menu == '2':
         sleep(1)
         os.system('clear')
-        firula('Menu [2] foi selecionado')
-        print('É executado a função do menu [2], dai passa para o submenu.')
-        print('O submenu normalmente é usado para continuar ou sair do programa.')
-        sleep(5)
+        firula('[1]MENU-2 SELECIONADO')
+        sleep(1)
+        print('EXECUTA ALGUMA COISA')
+        sleep(2)
         os.system('clear')
-        firula('Deseja continuar ou sair do programa?')
-        submenu = input('Escolha [S] para continuar ou [N] para sair: ')
-        while submenu.lower() != 's' and submenu.lower() != 'n':
+        firula('ACESSAR MENU PRINCIPAL OU SAIR DO PROGRAMA?')
+        submenu = input('[1]MENU-PRINCIPAL  [2]SAIR: ')
+        while submenu.lower() != '1' and submenu.lower() != '2':
             sleep(2)
             os.system('clear')
-            firula('Opção inválida')
-            submenu = input('Escolha [S] SIM ou [N] NÃO: ')
+            firula('OPÇÃO INVÁLIDA')
+            submenu = input('[1]MENU-PRINCIPAL  [2]SAIR: ')
         else:
-            if submenu.lower() == 's':
+            if submenu.lower() == '1':
                 sleep(2)
                 os.system('clear')
-                firula('O programa vai retornar ao menu principal')
+                firula('ACESSANDO MENU PRINCIPAL')
                 sleep(2)
                 menuprincipal = '0'
             else:
                 sleep(2)
                 os.system('clear')
-                firula('O programa vai ser fechado')
+                firula('FECHANDO PROGRAMA')
                 menuprincipal = '1'
             
     elif menu == '3':
-        sleep(1)
+        sleep(2)
         os.system('clear')
         firula('FECHANDO PROGRAMA')
         break
