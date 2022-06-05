@@ -1,0 +1,151 @@
+/* Limpar formatação padrão */
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    font-size: 1em;
+    font-family: "Trebuche MS", Helvetica, sans-serif;
+    background: #e6e6e6;
+}
+/* Cabeçalho e logo */
+#cabecalho {
+    position: fixed;
+    width: 100%;
+    background-color: #f7b600;
+    padding: 10px;
+    text-align: center;
+}
+#logo, #menu {
+    padding: 5px;
+}
+#logo h1 {
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+#logo span {
+    color: #ffffff;
+}
+/* Menu */
+a {
+    text-decoration: none;
+}
+#menu a:link, #menu a:visited {
+    padding: 5px;
+    color: #ffffff;
+}
+#menu a:hover {
+    color: #f7b600;
+    background: #ffffff;
+}
+/* Área principal e postagens */
+#principal {
+    width: 920px;
+    margin: 0px auto 15px auto;
+    padding: 15px;
+}
+#postagens, #lateral {
+    margin-top: 10px;
+    background-color: #ffffff;
+}
+#postagens {
+    width: 660px;
+    float: right;
+}
+.postagem {
+    padding: 20px;
+    margin-bottom: 0px;
+    border-bottom: 2px solid #f4f4f4;
+}
+.postagem h2 {
+    color: #f7b600;
+}
+.postagem span {
+    display: block;
+    font-size: 0.6em;
+    margin-bottom: 0px;
+}
+.postagem img {
+    width: 620px;
+    border-radius: 5px;
+}
+.postagem a {
+    text-decoration: none;
+    color: #f7b600;
+}
+.postagem a:hover {
+    text-decoration: underline;
+}
+/* Menu lateral */
+#lateral {
+    width: 240px;
+    position: fixed;
+}
+#semana {
+    text-align: left;
+    padding: 0px;
+}
+#semana h3 {
+    text-align: center;
+    font-size: 1.3em;
+    background: #4e4e4e;
+    color: #ffffff;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.semana {
+    padding: 0px 5px 0px 5px;
+}
+.semana h4 {
+    border-bottom: 2px solid #f4f4f4;
+    color: #f7b600;
+    font-size: 1.1em;
+}
+.semana p {
+    font-size: 0.8em;
+    padding: 5px 5px 0px 5px;
+    margin-bottom: 0px;
+}
+.semana a {
+    text-decoration: none;
+    color: #f7b600;
+    font-size: 0.7em;
+}
+.semana a:hover {
+    text-decoration: underline;
+}
+#categorias {
+    text-align: center;
+    padding: 0px;
+}
+#categorias h3 {
+    text-align: center;
+    font-size: 1.3em;
+    background: #4e4e4e;
+    color: #ffffff;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.categorias a {
+    font-weight: 900;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    color: #f7b600;
+}
+.categorias a:hover {
+    text-decoration: underline;
+}
+/* Rodapé */
+footer {
+    clear: both;
+    width: 920px;
+    padding: 15px;
+    margin: 0px auto;
+    text-align: center;
+}
+#rodape {
+    background-color: #4e4e4e;
+    color: #ffffff;
+    padding: 5px;
+}
