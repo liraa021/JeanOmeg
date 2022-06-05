@@ -5,6 +5,7 @@
 
 Tecnologias que estou estudando:
 
+- 💥 GIT/GITHUB
 - 💥 PYTHON
 - 💥 JAVA
 - 💥 SPRING
