@@ -8,7 +8,7 @@ from time import sleep
 tela = turtle.Screen()
 tela.title("Pong by JeanOmeg")
 tela.bgcolor("black")
-tela.setup(width=800, height=600)
+tela.setup(width=800, height=642)
 tela.tracer(0)
 
 # Pontuação
@@ -40,7 +40,7 @@ bola.shape("square")
 bola.color("white")
 bola.penup()
 bola.goto(0, 0)
-bola.dy = 0.3
+bola.dy = 0.5
 bola.dx = 0.1
 
 # Marcador de pontos
@@ -49,7 +49,7 @@ marcador.speed(0)
 marcador.color("white")
 marcador.penup()
 marcador.hideturtle()
-marcador.goto(0, 295)
+marcador.goto(0, 291)
 marcador.write(f"PLAYER A: {pontuacao_a}    PLAYER B: {pontuacao_b}   SPEED: {bola.dx}", align="center", font=("Courie", 8, "bold"))
 
 # Funções
