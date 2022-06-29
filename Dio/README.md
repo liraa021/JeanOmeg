@@ -1,7 +1,9 @@
-# SantanderBootCamp Fullstack Developer
+# Santander Bootcamp Fullstack Developer
 
-## Digital Innovation One inc - DIO
+## Exercícios das aulas
 
-### Santander Universidades - Brasil
-
-#### by Jean Fernandes - JeanOmeg
+ - HTML/CSS
+ - JAVASCRIPT
+ - ANGULAR
+ - JAVA
+ - SPRING BOOT
