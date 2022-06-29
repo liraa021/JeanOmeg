@@ -1,7 +1,6 @@
-### Repositório de projetos e estudos
+### Jean Francisco dos Santos Fernandes
 
-
-**Jean Francisco dos Santos Fernandes**
+**Repositório de projetos e estudos**
 
 Tecnologias que estou estudando:
 
